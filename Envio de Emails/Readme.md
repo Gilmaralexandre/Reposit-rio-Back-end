@@ -1,0 +1,5 @@
+# Projeto Envio de Email com Python
+
+- Inicialmente devemos gerar uma senha que possibilite o python se comunicar com o servidor do email, como eu utilizei o gmail, eu criei uma senha nas configurações da minha conta no google, após gerar essa senha devemos armazenar em um local seguro, no meu caso eu utilizei o gitignore para estar mantendo oculta esta senha.
+- Na parte de importação de bibliotecas para operação do projeto utilizei as bibliotecas os, que permite a integração com o sistema operacional, a smtplib para conexão smtp, a EmailMessage para formatação do email, e a mimetype para a implementação no envio de anexos e a ssl que vai realizar o serviço de encriptação.
+- Utilizei o projeto em um contexto de envio de um pdf, mas poderia ser alterado conforme necessidade do usuario, como texto padrão, numero de remetentes, envio de arquivos e etc.
